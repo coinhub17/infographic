@@ -1,0 +1,214 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rorok Infographs</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">ROROK <span>INFOGRAPHS</span></div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Infographs</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="upload-btn" id="uploadTrigger">
+      Upload Infograph
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Professional Business Promotion Through Infographs</h1>
+
+      <p>
+        Rorok Infographs helps businesses showcase services,
+        products, and brands using modern visual infographs.
+        Clean. Professional. Tech-Driven.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#gallery" class="primary-btn">Explore Designs</a>
+        <a href="#contact" class="secondary-btn">Work With Us</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="glow-circle"></div>
+
+      <div class="card-content">
+        <h3>Modern Visual Promotion</h3>
+
+        <ul>
+          <li>✔ Universal Business Templates</li>
+          <li>✔ Tech & Corporate Styling</li>
+          <li>✔ Clean Professional Layouts</li>
+          <li>✔ Responsive Showcase System</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+
+    <div class="section-title">
+      <h2>Our Services</h2>
+      <p>Designed for every business industry.</p>
+    </div>
+
+    <div class="service-grid">
+
+      <div class="service-card">
+        <div class="service-icon">📊</div>
+        <h3>Business Infographs</h3>
+        <p>
+          Modern promotional visuals for businesses,
+          shops, salons, cyber cafes, cleaning companies,
+          logistics, and more.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Digital Branding</h3>
+        <p>
+          Professional branding with futuristic and
+          technology-inspired aesthetics.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🚀</div>
+        <h3>Marketing Promotion</h3>
+        <p>
+          Promote products and services using engaging
+          visual content optimized for websites and social media.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="gallery">
+
+    <div class="section-title">
+      <h2>Business Infograph Gallery</h2>
+      <p>Upload and display promotional infographs.</p>
+    </div>
+
+    <input type="file" id="imageUpload" accept="image/*" hidden multiple>
+
+    <div class="gallery" id="galleryContainer">
+
+      <!-- SAMPLE CARDS -->
+
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="">
+        <div class="gallery-overlay">
+          <h3>Corporate Promotion</h3>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop" alt="">
+        <div class="gallery-overlay">
+          <h3>Retail Business</h3>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop" alt="">
+        <div class="gallery-overlay">
+          <h3>Technology Services</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+
+    <div class="about-text">
+      <h2>About Rorok Infographs</h2>
+
+      <p>
+        Rorok Infographs is a modern visual promotion platform
+        helping businesses communicate professionally through
+        digital infographs and clean branding systems.
+      </p>
+
+      <p>
+        The platform is designed for universal business use —
+        from startups and cyber cafes to salons, logistics,
+        agencies, consulting firms, and corporate brands.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <h3>Professional Design Standards</h3>
+
+      <div class="stats">
+        <div class="stat-card">
+          <h4>100%</h4>
+          <p>Responsive</p>
+        </div>
+
+        <div class="stat-card">
+          <h4>Modern</h4>
+          <p>UI/UX Design</p>
+        </div>
+
+        <div class="stat-card">
+          <h4>Universal</h4>
+          <p>Business Ready</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <div class="section-title">
+      <h2>Contact Rorok Infographs</h2>
+      <p>Professional visual promotion solutions.</p>
+    </div>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Business Name" required>
+
+      <input type="email" placeholder="Email Address" required>
+
+      <textarea placeholder="Describe your business promotion needs"></textarea>
+
+      <button type="submit">Send Request</button>
+
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Rorok Infographs. Professional Business Promotion Platform.</p>
+  </footer>
+
+</body>
+</html>
